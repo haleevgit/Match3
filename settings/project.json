@@ -1,0 +1,75 @@
+{
+  "group-list": [
+    "default",
+    "ui"
+  ],
+  "collision-matrix": [
+    [
+      true
+    ],
+    [
+      false,
+      false
+    ]
+  ],
+  "excluded-modules": [
+    "Audio",
+    "AudioSource",
+    "Action",
+    "Button",
+    "Collider",
+    "Dynamic Atlas",
+    "DragonBones",
+    "EditBox",
+    "Intersection",
+    "Layout",
+    "Label Effect",
+    "NodePool",
+    "Native Socket",
+    "Physics",
+    "PageView",
+    "PageViewIndicator",
+    "ProgressBar",
+    "ParticleSystem",
+    "RichText",
+    "Slider",
+    "ScrollBar",
+    "ScrollView",
+    "Spine Skeleton",
+    "StudioComponent",
+    "Toggle",
+    "TiledMap",
+    "VideoPlayer",
+    "WebView",
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "JsonParser",
+    "Analytics"
+  ],
+  "last-module-event-record-time": 1656502019332,
+  "design-resolution-width": 960,
+  "design-resolution-height": 640,
+  "fit-width": false,
+  "fit-height": true,
+  "use-project-simulator-setting": false,
+  "simulator-orientation": false,
+  "use-customize-simulator": true,
+  "simulator-resolution": {
+    "width": 960,
+    "height": 640
+  },
+  "assets-sort-type": "name",
+  "facebook": {
+    "appID": "",
+    "audience": {
+      "enable": false
+    },
+    "enable": false,
+    "live": {
+      "enable": false
+    }
+  },
+  "migrate-history": [],
+  "preview-port": 7456,
+  "clear-simulator-cache": true
+}
