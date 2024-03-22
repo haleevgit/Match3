@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bonus_field",
+    "texture": "5b667703-4c7f-41dc-bc62-727b694980d9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      437,
+      451
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      437,
+      451
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

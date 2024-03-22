@@ -1,0 +1,12 @@
+[submodule "cocos2d/core/pool"]
+	path = cocos2d/core/pool
+	url = https://bitbucket.org/playgendary-dev/cocos-creator-pool.git
+[submodule "cocos2d/core/particle"]
+	path = cocos2d/core/particle
+	url = https://bitbucket.org/playgendary-dev/cocos-creator-particle.git
+[submodule "cocos2d/core/resize"]
+	path = cocos2d/core/resize
+	url = https://bitbucket.org/playgendary-dev/cocos-creator-resize.git
+[submodule "cocos2d/core/analytics"]
+	path = cocos2d/core/analytics
+	url = https://bitbucket.org/playgendary-dev/cocos-creator-analytics.git

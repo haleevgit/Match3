@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fx_particle_6",
+    "texture": "58898981-99e2-4e47-8651-e467e389cb74",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      116,
+      45
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      120,
+      48
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

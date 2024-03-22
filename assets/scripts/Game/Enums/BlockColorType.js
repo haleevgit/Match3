@@ -6,4 +6,6 @@ export default cc.Enum({
     Yellow: 4,
     Bomb: 5,
     Tnt: 6,
+    ColumnEraser: 7,
+    Teleport: 8,
 });

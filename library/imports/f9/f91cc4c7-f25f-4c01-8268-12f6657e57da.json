@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "level_bar_empty",
+    "texture": "0db1214b-cc73-4cfc-9cb3-2ee4efae954f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1259,
+      103
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1259,
+      103
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

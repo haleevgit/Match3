@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "level_failed_2",
+    "texture": "a41eb0d7-a262-4e1c-8057-5aaa651bec81",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      796,
+      80
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      796,
+      80
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

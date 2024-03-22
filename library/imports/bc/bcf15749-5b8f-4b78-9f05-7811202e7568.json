@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fx_core_fire_1",
+    "texture": "eb74fd0e-a224-4afd-8ed0-998859abc0f1",
+    "atlas": "",
+    "rect": [
+      1,
+      2,
+      121,
+      126
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      123,
+      130
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

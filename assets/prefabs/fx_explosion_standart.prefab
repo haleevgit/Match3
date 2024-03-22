@@ -40,13 +40,10 @@
     "_components": [
       {
         "__id__": 251
-      },
-      {
-        "__id__": 252
       }
     ],
     "_prefab": {
-      "__id__": 253
+      "__id__": 252
     },
     "_opacity": 255,
     "_color": {
@@ -58,8 +55,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
+      "width": 100,
+      "height": 100
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -70,8 +67,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        408.96,
-        305.079,
+        0,
+        0,
         0,
         0,
         0,
@@ -2949,20 +2946,9 @@
       "__id__": 1
     },
     "_enabled": true,
-    "playOnLoad": false,
+    "playOnLoad": true,
     "_timeScale": 1,
     "emitters": [],
-    "_id": ""
-  },
-  {
-    "__type__": "f5634naDFxBOpVpNomxouc0",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 1
-    },
-    "_enabled": true,
-    "order": 100,
     "_id": ""
   },
   {

@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets/scripts/Game/Enums/BombType.js"],"names":["cc","Enum","None","Bomb","Tnt"],"mappings":";;;;;;;;;eAAeA,EAAE,CAACC,IAAH,CAAQ;EACnBC,IAAI,EAAE,CADa;EAEnBC,IAAI,EAAE,CAFa;EAGnBC,GAAG,EAAE;AAHc,CAAR","sourceRoot":"/","sourcesContent":["export default cc.Enum({\n    None: 0,\n    Bomb: 1,\n    Tnt: 2,\n});\n"]}

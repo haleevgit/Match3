@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fx_peniata_bigboom 1",
+    "texture": "bd911b00-c834-4ad0-a631-0be9684ba7b9",
+    "atlas": "",
+    "rect": [
+      36,
+      37,
+      440,
+      439
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

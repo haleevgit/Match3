@@ -1,39 +1,31 @@
-import RenderListType from 'RenderListType';
-//#region classes-helpers
-//#endregion
+import GameEvent from 'GameEvent';
 
 cc.Class({
     extends: cc.Component,
 
     properties: {
-        //#region editors fields and properties
-        order: {
-            default: RenderListType.None,
-            type: RenderListType,
-            tooltip: 'глубина отрисовки эффекта, по RenderListType',
-        },
-        //#endregion
-
-        //#region public fields and properties
-        //#endregion
-
-        //#region private fields and properties
-        //#endregion
+        effect: {default: null, type: cc.Prefab},
+    },
+    
+    onEnable() {
+        this._handleSubscription(true);
     },
 
-    editor: {
-        menu: 'ParticleEffects/Effect',
+    onDisable() {
+        this._handleSubscription(false);
     },
 
-    //#region life-cycle callbacks
-    //#endregion
+    _handleSubscription(isOn) {
+        const func = isOn ? 'on' : 'off';
+        cc.systemEvent[func](GameEvent.SPAWN_EFFECT, this.onSpawnEffect, this);
+    },
 
-    //#region public methods
-    //#endregion
+    onSpawnEffect(coords) {
+        const g = cc.instantiate(this.effect);
+        g.setParent(this.node)
+        g.x = coords.x;
+        g.y = coords.y;
+        g.active = true;
+    }
 
-    //#region private methods
-    //#endregion
-
-    //#region event handlers
-    //#endregion
 });

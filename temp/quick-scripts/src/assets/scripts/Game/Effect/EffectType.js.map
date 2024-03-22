@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets/scripts/Game/Effect/EffectType.js"],"names":["cc","Enum","None","Explosion"],"mappings":";;;;;;;;;eAAeA,EAAE,CAACC,IAAH,CAAQ;EACnBC,IAAI,EAAE,CADa;EAEnBC,SAAS,EAAE;AAFQ,CAAR","sourceRoot":"/","sourcesContent":["export default cc.Enum({\n    None: 0,\n    Explosion: 1,\n});\n"]}

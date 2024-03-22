@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fx_star_4_512",
+    "texture": "f7622ec1-f654-441f-a2e5-8f28ca34b644",
+    "atlas": "",
+    "rect": [
+      45,
+      26,
+      423,
+      450
+    ],
+    "offset": [
+      0.5,
+      5
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

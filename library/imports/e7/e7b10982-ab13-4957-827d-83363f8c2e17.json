@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "button_green_continue",
+    "texture": "1050b44b-3962-41fc-93fd-7c3caed8d9de",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      320,
+      112
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      322,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

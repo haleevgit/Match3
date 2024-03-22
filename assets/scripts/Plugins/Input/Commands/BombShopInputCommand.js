@@ -1,7 +1,7 @@
 import GameEvent from 'GameEvent';
 
 import IInputCommand from 'IInputCommand';
-import BombType from 'BombType';
+import BlockColorType from 'BlockColorType';
 
 const BombShopInputCommand = class BombShopInputCommand extends IInputCommand {
     constructor(manager) {
@@ -14,7 +14,7 @@ const BombShopInputCommand = class BombShopInputCommand extends IInputCommand {
     }
 
     onDown(touch, place, target, c4, c5) {
-        cc.systemEvent.emit(GameEvent.CHECK_SCORES_FOR_ABILITY, BombType.Bomb);
+        cc.systemEvent.emit(GameEvent.CHECK_SCORES_FOR_ABILITY, BlockColorType.Bomb);
     }
 
     onMove(touch, place, target) {}

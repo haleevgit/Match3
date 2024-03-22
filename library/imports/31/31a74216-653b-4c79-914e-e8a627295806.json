@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fx_blood_spray_0",
+    "texture": "6a60861d-8b4e-402d-9218-7fa3661b0363",
+    "atlas": "",
+    "rect": [
+      12,
+      10,
+      105,
+      102
+    ],
+    "offset": [
+      0.5,
+      3
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

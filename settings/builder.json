@@ -1,5 +1,5 @@
 {
-  "title": "Match3",
+  "title": "TestTask",
   "packageName": "org.cocos2d.demo",
   "startScene": "859b6980-2f94-451d-9672-2aa49eba0be5",
   "excludeScenes": [],
@@ -15,7 +15,7 @@
   "inlineSpriteFrames_native": true,
   "mergeStartScene": false,
   "optimizeHotUpdate": false,
-  "md5Cache": false,
+  "md5Cache": true,
   "encryptJs": true,
   "xxteaKey": "a97a337a-d8fe-42",
   "zipCompressJs": true,

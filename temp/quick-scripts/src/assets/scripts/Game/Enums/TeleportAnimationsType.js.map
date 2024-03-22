@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets/scripts/Game/Enums/TeleportAnimationsType.js"],"names":["cc","Enum","None","Choosing","Accepted"],"mappings":";;;;;;;;;eAAeA,EAAE,CAACC,IAAH,CAAQ;EACnBC,IAAI,EAAE,CADa;EAEnBC,QAAQ,EAAE,CAFS;EAGnBC,QAAQ,EAAE;AAHS,CAAR","sourceRoot":"/","sourcesContent":["export default cc.Enum({\n    None: 0,\n    Choosing: 1,\n    Accepted: 2,\n});\n"]}

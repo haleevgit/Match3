@@ -1,0 +1,7 @@
+{
+  "use-global-engine-setting": false,
+  "use-default-js-engine": false,
+  "js-engine-path": "/Users/playgendary/tapclap/CocosCreatorEngine",
+  "use-default-cpp-engine": true,
+  "cpp-engine-path": ""
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fx_trashmetal_2",
+    "texture": "8595e607-b6df-4429-b664-ec4e1cbcb133",
+    "atlas": "",
+    "rect": [
+      16,
+      17,
+      89,
+      86
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      120,
+      120
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

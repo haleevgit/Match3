@@ -6,6 +6,7 @@ import InputType from 'InputType';
 import IInputCommand from 'IInputCommand';
 import GameAreaInputCommand from 'GameAreaInputCommand';
 import BombShopInputCommand from 'BombShopInputCommand';
+import TeleportShopInputCommand from 'TeleportShopInputCommand';
 import TntShopInputCommand from 'TntShopInputCommand';
 import IngameButtonInputCommand from 'IngameButtonInputCommand';
 import FakeScreenInputCommand from 'FakeScreenInputCommand';
@@ -62,6 +63,7 @@ cc.Class({
 
         this.commands[InputDirection.GameArea] = new GameAreaInputCommand(this);
         this.commands[InputDirection.BombShop] = new BombShopInputCommand(this);
+        this.commands[InputDirection.TeleportShop] = new TeleportShopInputCommand(this);
         this.commands[InputDirection.TntShop] = new TntShopInputCommand(this);
         this.commands[InputDirection.IngameButton] = new IngameButtonInputCommand(this);
         this.commands[InputDirection.FakeScreen] = new FakeScreenInputCommand(this);
@@ -69,17 +71,6 @@ cc.Class({
         this.commands[InputDirection.Block] = new BlockInputCommand(this);
     },
 
-    update(dt) {
-        this._time += dt;
-
-        if (this.checkUserSleep && this._isSleep) {
-            if (this._userSleepTime < this.tutorialTimeout && this._userSleepTime + dt >= this.tutorialTimeout) {
-                cc.systemEvent.emit(GameEvent.TOGGLE_TUTORIAL, true);
-            }
-
-            this._userSleepTime += dt;
-        }
-    },
     //#endregion
 
     //#region public methods

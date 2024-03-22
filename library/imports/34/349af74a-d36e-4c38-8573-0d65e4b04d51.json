@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "button_yellow_install",
+    "texture": "23e8b714-f09f-473f-b22b-7aae4129de2a",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      160,
+      62
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      162,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -42,4 +42,15 @@ export default cc.Enum({
     CHECK_SCORES_FOR_ABILITY:712,
     TOGGLE_SUPER_ABILITY:713,
     BOMB_IS_AVAILABLE:714,
+    FEATURE_RESULT: 715,                     //sending the result of deleting feature work
+    BLOCK_BOMB_DONE:716,                     //bomb block is done
+    ACTIVATE_COLUMN_ERASER:717,
+    COLUMN_ERASER_DONE: 718,
+    TELEPORT_IS_AVAILABLE: 719,
+    TELEPORT_STARTED: 720,
+    CHANGE_BLOCK_ANIMATION: 721,            // is using for the teleport realization
+    TELEPORTED_BLOCK_CHOSEN: 722,           // is using for the sending of the teleporting-block
+    START_TELEPORTATION: 723,
+    TELEPORTATION_COMPLETE: 724,
+    IS_SCORE_ENOUGH: 725,
 });

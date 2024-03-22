@@ -193,6 +193,7 @@ cc.Class({
         this._updateZoomRatio();
 
         if (this._isShaking) {
+
             this._shakingTime += dt;
 
             // камера трясется по синусоиде с заданной частотой и амплитудой

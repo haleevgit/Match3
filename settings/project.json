@@ -46,7 +46,7 @@
     "JsonParser",
     "Analytics"
   ],
-  "last-module-event-record-time": 1656502019332,
+  "last-module-event-record-time": 1711098680551,
   "design-resolution-width": 960,
   "design-resolution-height": 640,
   "fit-width": false,
@@ -69,7 +69,9 @@
       "enable": false
     }
   },
-  "migrate-history": [],
+  "migrate-history": [
+    "cloud-function"
+  ],
   "preview-port": 7456,
   "clear-simulator-cache": true
 }

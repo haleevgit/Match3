@@ -18,6 +18,8 @@ const InputDirection = cc.Enum({
     BombShop: 45,
 
     TntShop: 46,
+
+    TeleportShop: 47,
 });
 
 module.exports = InputDirection;

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fx_shine_1_256",
+    "texture": "4b678fef-aa93-45cb-ba5c-908a565f3f29",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      252,
+      252
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

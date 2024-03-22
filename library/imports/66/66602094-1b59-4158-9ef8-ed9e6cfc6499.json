@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fx_alien_probe_activate_particle_0",
+    "texture": "ccfb3dc9-06b3-46e9-bf20-fd0efa508270",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      128,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

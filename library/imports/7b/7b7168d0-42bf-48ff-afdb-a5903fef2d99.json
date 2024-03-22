@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cannon_ball",
+    "texture": "aba51862-cbd6-417a-ac16-30f3379794cb",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      80,
+      116
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      80,
+      117
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

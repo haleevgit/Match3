@@ -2,6 +2,7 @@
 import GameEvent from 'GameEvent';
 import UiScreenType from 'UiScreenType';
 import BombType from 'BombType';
+import BlockColorType from '../Enums/BlockColorType';
 //#endregion
 
 cc.Class({
@@ -23,6 +24,11 @@ cc.Class({
         //#region private fields and properties
         _level: { default: 0, serializable: false },
         _steps: { default: 20 },
+        _stepsFirstLevels: { default: 10 },
+        _stepsNextLevels: { default: 21 },
+        _numberForAvailableCreation:{ default: 10 },
+        _widthMultiplier:{ default: 1500 },
+        _scoresBorder: { default: 18 },
         _localScores: { default: 40 },
         _needingScores: { default: 0, serializable: false },
         _totalScores: { default: 0 },
@@ -53,16 +59,16 @@ cc.Class({
 
         cc.systemEvent[func](GameEvent.SCORE_GOT, this.onScoreGot, this);
         cc.systemEvent[func](GameEvent.PLAYER_MOVED, this.onPlayerMoved, this);
-        cc.systemEvent[func](GameEvent.CHECK_SCORES_FOR_ABILITY, this.onCheckScoreForAbility, this);
+        cc.systemEvent[func](GameEvent.IS_SCORE_ENOUGH, this.onIsScoreEnough, this);
         cc.systemEvent[func](GameEvent.TOGGLE_SUPER_ABILITY, this.onToggleSuperAbility, this);
         cc.systemEvent[func](GameEvent.SHOW_SCREEN, this.onShowScreen, this);
     },
 
     _createNewLevel() {
         this._level += 1;
-        this._steps = 21 - this._level;
-        if (this._steps < 10) this._steps = 10;
-        this._localScores = 18 + Math.ceil(this._level * 2);
+        this._steps = this._stepsNextLevels - this._level;
+        if (this._steps < this._stepsFirstLevels) this._steps = this._stepsFirstLevels;
+        this._localScores = this._scoresBorder + Math.ceil(this._level * 2);
         this._needingScores = this._localScores;
         this.level.string = this._level;
         this.localScores.string = this._localScores;
@@ -84,14 +90,14 @@ cc.Class({
         this._totalScores += scores;
         this.totalScores.string = this._totalScores;
 
-        if (this._checkForScores(this._totalScores, 10)) cc.systemEvent.emit(GameEvent.BOMB_IS_AVAILABLE, true);
+        if (this._checkForScores(this._totalScores, this._numberForAvailableCreation)) cc.systemEvent.emit(GameEvent.BOMB_IS_AVAILABLE, true);
 
         if (this._localScores < 1) {
             cc.systemEvent.emit(GameEvent.SHOW_SCREEN, UiScreenType.Result, true, true);
             this._createNewLevel();
         } else {
             this.localScores.string = this._localScores;
-            pg.tweenManager.add(this.progress, { width: 1500 * ((this._needingScores - this._localScores) / this._needingScores) }, 0.2);
+            pg.tweenManager.add(this.progress, { width: this._widthMultiplier * ((this._needingScores - this._localScores) / this._needingScores) }, 0.2);
         }
     },
 
@@ -105,21 +111,30 @@ cc.Class({
         }
     },
 
-    onCheckScoreForAbility(kindSuperAbility) {
+    onIsScoreEnough(kindSuperAbility, score) {
         if (!this._canCheckForScoresAbility) return;
+        
         let isAvailable = false;
         switch (kindSuperAbility) {
-            case BombType.Bomb:
-                if (this._totalScores >= 10) {
+            case BlockColorType.Bomb:
+                if (this._totalScores >= score) {
                     isAvailable = true;
-                    this._totalScores -= 10;
-                    if (!this._checkForScores(this._totalScores, 10)) cc.systemEvent.emit(GameEvent.BOMB_IS_AVAILABLE, false);
+                    this._totalScores -= score;
+                    if (!this._checkForScores(this._totalScores, score)) cc.systemEvent.emit(GameEvent.BOMB_IS_AVAILABLE, false);
                 }
                 break;
-            case BombType.Tnt:
-                if (this._totalScores >= 30000) {
+            case BlockColorType.Teleport:
+                if (this._totalScores >= score) {
                     isAvailable = true;
-                    this._totalScores -= 30000;
+                    this._totalScores -= score;
+                }
+                break;
+    
+            case BombType.Tnt:
+                return
+                if (this._totalScores >= score) {
+                    isAvailable = true;
+                    this._totalScores -= score;
                 }
                 break;
         }

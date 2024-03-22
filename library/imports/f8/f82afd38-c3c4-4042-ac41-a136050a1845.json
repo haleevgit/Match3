@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fx_smoke_collumn",
+    "texture": "ec54383a-aac1-4203-9b59-bd50f8db0cb0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      128,
+      512
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

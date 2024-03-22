@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bonus_bar_small",
+    "texture": "935d08c2-4a87-47a2-b280-f5f4310475fe",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      322,
+      132
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      322,
+      132
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fx_laser",
+    "texture": "a100846b-dd11-4752-ac73-fcb3599fde05",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      185,
+      104
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      185,
+      104
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
