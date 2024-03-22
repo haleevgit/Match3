@@ -32,6 +32,8 @@ cc.Class({
             }
             cc.systemEvent.emit(GameEvent.CHANGE_BLOCK_ANIMATION, this._secondTeleportPosition, TeleportAnimationsType.Choosing);
         } else {
+            if (block.id === this._firstBlock.id)
+                return
             this._secondCoord = cc.v2(block.x, block.y);
             cc.systemEvent.emit(GameEvent.CHANGE_BLOCK_ANIMATION, this._secondTeleportPosition, TeleportAnimationsType.None);
             cc.systemEvent.emit(GameEvent.CHANGE_BLOCK_ANIMATION, cc.v2(block.iI, block.iJ), TeleportAnimationsType.Accepted);

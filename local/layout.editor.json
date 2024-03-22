@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 321,
-            "height": 976,
+            "width": 267.328125,
+            "height": 796,
             "type": "dock-v",
             "children": [
               {
-                "width": 321,
-                "height": 414,
+                "width": 267.328125,
+                "height": 337.40625,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 321,
-                "height": 559,
+                "width": 267.328125,
+                "height": 455.59375,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 1071.984375,
-            "height": 976,
+            "width": 892.765625,
+            "height": 796,
             "type": "dock-v",
             "children": [
               {
-                "width": 1071.984375,
-                "height": 489,
+                "width": 892.765625,
+                "height": 398.53125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 1071.984375,
-                "height": 484,
+                "width": 892.765625,
+                "height": 394.46875,
                 "type": "panel",
                 "active": 2,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 521,
-            "height": 976,
+            "width": 433.890625,
+            "height": 796,
             "type": "panel",
             "active": 0,
             "children": [
@@ -79,16 +79,14 @@
       "panels": [
         "hierarchy",
         "assets",
-        "console",
         "scene",
         "timeline",
         "game-window",
+        "console",
         "inspector",
         "cocos-services"
       ]
-    },
-    "window-1711098639933": {},
-    " build-worker-worker": {}
+    }
   },
   "panels": {
     "project-settings": {

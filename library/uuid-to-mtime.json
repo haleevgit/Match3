@@ -95,13 +95,13 @@
     "relativePath": "prefabs/fx_explosion_standart.prefab"
   },
   "7ce11017-4699-47cc-ac31-eb8b47da3a04": {
-    "asset": 1710672164699,
-    "meta": 1710686662597,
+    "asset": 1711095793095,
+    "meta": 1711104388453,
     "relativePath": "scripts/Game"
   },
   "74f8eb99-2506-41da-8677-272ce08eb38a": {
-    "asset": 1710574593584,
-    "meta": 1710576897754,
+    "asset": 1711098587549,
+    "meta": 1711104388454,
     "relativePath": "scripts/Plugins"
   },
   "7a249675-165c-406e-a980-dc3c2d5fc5cf": {
@@ -435,8 +435,8 @@
     "relativePath": "prefabs/Ui/ResultScreen.prefab"
   },
   "c29e1b8c-29bc-47f9-ad26-3c3f2fc4ed53": {
-    "asset": 1710703739712,
-    "meta": 1710746051707,
+    "asset": 1711094904688,
+    "meta": 1711104388454,
     "relativePath": "scripts/Game/Effect"
   },
   "cad396c0-3ac5-4c2d-a80e-6e024c273c33": {
@@ -455,8 +455,8 @@
     "relativePath": "scripts/Game/Ui"
   },
   "9f5038a5-51d0-4e4c-8ab9-8cc16dff5af2": {
-    "asset": 1710574593581,
-    "meta": 1710576898298,
+    "asset": 1711095899013,
+    "meta": 1711104388455,
     "relativePath": "scripts/Game/World"
   },
   "b9971f38-0203-4440-aa23-e5fa68de8c1a": {
@@ -1289,11 +1289,6 @@
     "meta": 1711095742341,
     "relativePath": "scripts/Game/Enums/GameEvent.js"
   },
-  "110eb595-925d-4e74-83ef-691879f66f14": {
-    "asset": 1711096424413,
-    "meta": 1711096426061,
-    "relativePath": "scripts/Game/Logic/Features/Teleport.js"
-  },
   "4c0893c6-6259-4294-94b8-aea796bbf70b": {
     "asset": 1711097652245,
     "meta": 1711097657663,
@@ -1303,5 +1298,10 @@
     "asset": 1711098386156,
     "meta": 1711098389307,
     "relativePath": "scripts/Game/Ui/ScoreManager.js"
+  },
+  "110eb595-925d-4e74-83ef-691879f66f14": {
+    "asset": 1711104479760,
+    "meta": 1711104481739,
+    "relativePath": "scripts/Game/Logic/Features/Teleport.js"
   }
 }
